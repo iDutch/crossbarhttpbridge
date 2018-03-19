@@ -17,9 +17,9 @@ If you've configured keys and secrets on your crossbar server for HTTP-Bridge re
 _(For configuring signed requests, please refer to the documentation of Crossbar's HTTP-Bridge.)_ 
 ```
 CROSSBAR_HTTP_BRIDGE_PUBLISHER_KEY=your_publisher_key
-CROSSBAR_HTTP_BRIDGE_PUBLISHER_SECRET=your_publisher_key
-CROSSBAR_HTTP_BRIDGE_CALLER_KEY=your_publisher_key
-CROSSBAR_HTTP_BRIDGE_CALLER_SECRET=your_publisher_key
+CROSSBAR_HTTP_BRIDGE_PUBLISHER_SECRET=your_publisher_secret
+CROSSBAR_HTTP_BRIDGE_CALLER_KEY=your_caller_key
+CROSSBAR_HTTP_BRIDGE_CALLER_SECRET=your_caller_secret
 ```
 ## Example
 
