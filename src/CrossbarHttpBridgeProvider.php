@@ -14,7 +14,9 @@ class CrossbarHttpBridgeProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $this->publishes([
+            __DIR__ . '/config/crossbarhttpbridge.php' => config_path('crossbarhttpbridge.php'),
+        ]);
     }
 
     /**
@@ -25,7 +27,7 @@ class CrossbarHttpBridgeProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind('iDutch\CrossbarHttpBridge\CrossbarHttpBridgeInterface', function ($app) {
-            return new CrossbarHttpBridgeClient(new GuzzleClient(config('app.crossbar_http_bridge.guzzle')), config('app.crossbar_http_bridge.options'));
+            return new CrossbarHttpBridgeClient(new GuzzleClient(config('crossbarhttpbridge.guzzle')), config('crossbarhttpbridge.options'));
         });
     }
 }
