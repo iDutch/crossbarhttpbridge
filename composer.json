@@ -1,0 +1,32 @@
+{
+    "name": "idutch/crossbarhttpbridge",
+    "description": "Library for publishing events and calling remote procedures through Crossbar.io's HTTP-Bridge",
+    "authors": [
+        {
+            "name": "Richard Hoogstraaten",
+            "email": "richard@hoogstraaten.eu"
+        }
+    ],
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.0",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "iDutch\\CrossbarHttpBridge\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "iDutch\\CrossbarHttpBridge\\CrossbarHttpBridgeProvider"
+            ],
+            "aliases": {
+            }
+        }
+    }
+}
