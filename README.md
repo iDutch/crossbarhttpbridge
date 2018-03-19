@@ -1,11 +1,10 @@
 # CrossbarHttpBridge
 Crossbar HTTP Bridge service for Laravel
 
-## Instalation
+## Installation
 ```composer require idutch/crossbarhttpbridge```
 
 ```php artisan vendor:publish```
-
 
 Add the following to your .env
 ```
