@@ -28,9 +28,7 @@ CROSSBAR_HTTP_BRIDGE_CALLER_SECRET=your_caller_secret
 <?php
 namespace App\Http\Controllers;
 
-use App\Schedule;
 use iDutch\CrossbarHttpBridge\CrossbarHttpBridgeInterface;
-use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller
 {
