@@ -1,6 +1,6 @@
 {
     "name": "idutch/crossbarhttpbridge",
-    "description": "Library for publishing events and calling remote procedures through Crossbar.io's HTTP-Bridge",
+    "description": "A Laravel library for publishing events and calling remote procedures through Crossbar's HTTP-Bridge",
     "authors": [
         {
             "name": "Richard Hoogstraaten",
