@@ -7,7 +7,6 @@ Crossbar HTTP Bridge service for Laravel
 composer require idutch/crossbarhttpbridge
 php artisan vendor:publish
 ```
-```
 2. Add the following to your .env file
 ```
 CROSSBAR_HTTP_BRIDGE_URI=https://your.crossbar.service:443
