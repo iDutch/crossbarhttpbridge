@@ -2,20 +2,20 @@
 Crossbar HTTP Bridge service for Laravel
 
 ## Installation
-```composer require idutch/crossbarhttpbridge```
-
-```php artisan vendor:publish```
-
-Add the following to your .env
+1. Run these commands
+```bash
+composer require idutch/crossbarhttpbridge
+php artisan vendor:publish
+```
+```
+2. Add the following to your .env file
 ```
 CROSSBAR_HTTP_BRIDGE_URI=https://your.crossbar.service:443
 CROSSBAR_HTTP_BRIDGE_VERIFY_SSL=true or false
 CROSSBAR_HTTP_BRIDGE_PUBLISH_PATH=/publish
 CROSSBAR_HTTP_BRIDGE_CALL_PATH=/call
 ```
-
-If you've configured keys and secrets on your crossbar server for HTTP-Bridge requests then also add the following
-_(For configuring signed requests, please refer to the documentation of Crossbar's HTTP-Bridge.)_ 
+3. If you've configured your crossbar server only to accept signed requests then also add the following to your .env file
 ```
 CROSSBAR_HTTP_BRIDGE_PUBLISHER_KEY=your_publisher_key
 CROSSBAR_HTTP_BRIDGE_PUBLISHER_SECRET=your_publisher_secret
