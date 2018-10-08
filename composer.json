@@ -9,7 +9,7 @@
     ],
     "type": "library",
     "license": "MIT",
-    "minimum-stability": "dev",
+    "minimum-stability": "dev-master",
     "require": {
         "php": "^7.0",
         "guzzlehttp/guzzle": "^6.3"
