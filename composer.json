@@ -9,7 +9,7 @@
     ],
     "type": "library",
     "license": "MIT",
-    "minimum-stability": "dev-master",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
         "php": "^7.0",
