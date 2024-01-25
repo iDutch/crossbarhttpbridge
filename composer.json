@@ -9,10 +9,10 @@
     ],
     "type": "library",
     "license": "MIT",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
-        "php": "^7.0",
+        "php": "^8.0",
         "guzzlehttp/guzzle": "^6.3"
     },
     "require-dev": {},
